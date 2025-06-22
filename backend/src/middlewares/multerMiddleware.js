@@ -12,4 +12,4 @@ const storage = multer.diskStorage({
   }
 })
 // intialising multer with storage
-const upload = multer({ storage: storage })
+const upload = multer({ storage: storage })// u can also use other fiels like filefilter,limit etc

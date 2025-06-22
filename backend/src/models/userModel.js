@@ -33,9 +33,9 @@ const userSchema = new mongoose.Schema(
       type: String,
       trim: true,
     },
-    profilePic: {
+    avatar: {
       type: String, 
-      default: '', // use cloudinary
+      default: '', // use cloudinary and fix a default url 
     },
     refreshToken: {
     type:String
